@@ -1,0 +1,8 @@
+{
+	"name": "C",
+	"color": "#034272",
+	"company": "ISO",
+	"whereused": ["разработка драйверов","разработка ПО для компьютеров"],
+	"type": "compiled",
+	"type_casting": "strong"
+}

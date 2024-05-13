@@ -1,0 +1,8 @@
+{
+	"name": "JavaScript",
+	"color": "#ffff00",
+	"company": "ECMA Community",
+	"whereused": ["разработка интерфейса сайта","серверная разработка"],
+	"type": "interpreter",
+	"type_casting": "weak"
+}

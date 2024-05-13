@@ -1,0 +1,8 @@
+{
+	"name": "Python",
+	"color": "#007bff",
+	"company": "Python Software Foundation",
+	"whereused": ["серверная разработка","искусственный интеллект"],
+	"type": "interpreter",
+	"type_casting": "strong"
+}

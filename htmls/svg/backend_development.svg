@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <rect x="2.681" y="5.935" width="24.302" height="38.527" style="fill: rgb(51, 51, 51); stroke: rgb(0, 0, 0);"/>
+  <ellipse style="fill: rgb(216, 216, 216); stroke: royalblue; stroke-linecap: round; stroke-linejoin: round;" cx="14.594" cy="36.758" rx="3.853" ry="3.793"/>
+  <line style="fill: rgb(216, 216, 216); stroke: royalblue; stroke-linecap: round; stroke-linejoin: round;" x1="14.535" y1="34.86" x2="14.535" y2="36.994"/>
+  <path style="fill: rgb(216, 216, 216); stroke: royalblue; stroke-width: 0.75px; stroke-linecap: round; stroke-linejoin: round;" d="M 12.875 37.824 C 12.875 39.088 16.312 39.088 16.312 37.824"/>
+  <ellipse style="fill: blue;" cx="26.33" cy="21.247" rx="14.522" ry="13.929"/>
+  <text style="white-space: pre; fill: cyan; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold;" x="6.474" y="19.883" transform="matrix(0.6808760166168213, 0, 0, 0.6977740526199341, 8.823076248168945, 11.4240083694458)">WWW</text>
+</svg>

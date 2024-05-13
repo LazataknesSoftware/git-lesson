@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1.826" y="20.512" width="15.087" height="25.491" style="fill: rgb(250, 45, 81); stroke: rgb(255, 139, 160);" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 0, 0)"/>
+  <rect x="33.56" y="24.153" width="13.11" height="22.37" style="fill: rgb(250, 45, 81); stroke: rgb(255, 139, 160);" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 0, 0)"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(139, 24, 44);" cx="9.421" cy="28.055" rx="5.41" ry="5.254" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 0, 0)"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(139, 24, 44);" cx="9.421" cy="39.367" rx="3.121" ry="3.173" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 0, 0)"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(139, 24, 44);" cx="40.063" cy="30.42" rx="4.005" ry="3.901" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 0, 0)"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(139, 24, 44);" cx="40.011" cy="40.304" rx="2.705" ry="2.653" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 0, 0)"/>
+</svg>

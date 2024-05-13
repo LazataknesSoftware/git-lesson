@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+	<Head>
+		
+	</Head>
+	<BoDY>
+		<button onclick="sendPostRequest()">Send POST-request</button>
+	</BoDY>
+<script>
+			function sendPostRequest() {
+				fetch("http://192.168.1.11",{
+					method: "POST",
+					body: "Text"
+				})
+			}
+		</script>
+</html>

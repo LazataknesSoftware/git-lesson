@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(16, 44, 93);" cx="29.743" cy="18.221" rx="16.246" ry="16.138" transform="matrix(1, 0, 0, 1, 7.105427357601002e-15, 1.7763568394002505e-15)"/>
+  <text style="fill: rgb(0, 163, 255); font-family: Arial, sans-serif; font-size: 13px; white-space: pre;" x="17.3" y="17.514" transform="matrix(0.5690749883651733, 0, 0, 0.9087070226669313, 14.953290939331062, 5.633378028869629)">WWW</text>
+  <rect x="2.847" y="35.445" width="24.886" height="7.824" style="stroke: rgb(0, 0, 0); fill: rgb(0, 78, 255);" transform="matrix(1, 0, 0, 1, 7.105427357601002e-15, 1.7763568394002505e-15)"/>
+  <path style="stroke: rgb(0, 0, 0); fill: rgb(0, 78, 255);" d="M 2.739 36.531 C 3.463 22.343 28.348 22.217 27.624 36.406" transform="matrix(1, 0, 0, 1, 7.105427357601002e-15, 1.7763568394002505e-15)"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(255, 213, 138);" cx="15.344" cy="17.732" rx="9.889" ry="9.237" transform="matrix(1, 0, 0, 1, 7.105427357601002e-15, 1.7763568394002505e-15)"/>
+</svg>

@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+	<head>
+		<title>CPU Database</title>
+		<meta name="viewport" content="width=device-width">
+<style>
+div {
+	display: flex;
+}
+button {
+	width: fit-content;
+	margin-left: 5px;
+}
+#device {
+	flex-basis: 95%;
+}
+</style>
+	</head>
+	<body>
+		<div>
+			<input type="text" id="device">
+			<button onclick="searchDevice()">Search</button>
+		</div>
+		<hr>
+		<span id="results"></span>
+		<script>
+			let {getElementById: id} = document;
+			id = id.bind(document);
+			function searchDevice() {
+				fetch(`http://192.168.1.11:2581/${id("device").value.replace(" ","_")}`).then(ret => ret.text()).then(success => id("results").innerText = success)
+			}
+		</script>
+	</body>
+</html>

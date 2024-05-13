@@ -1,0 +1,8 @@
+{
+	"name": "Bash",
+	"color": "#595959",
+	"company": "@ChatRamey",
+	"whereused": ["автоматизация"],
+	"type": "interpreter",
+	"type_casting": "weak"
+}

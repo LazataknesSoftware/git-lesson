@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Сборник языков программирования</title>
+		<META NAME="theme-color" content="lime">
+		<meta name="viewport" content="width=device-width">
+<style>
+* {
+	font-family: system-ui;
+}
+div>* {
+	display:inline-block;
+	margin-right: 10px;
+}
+body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+input, button {
+	background-color: black;
+	border: 2px solid lime;
+	color: lime;
+}
+button {
+	transition: color 0.3s, border-color 300ms;
+}
+button:hover {
+	color: yellow;
+	border-color: yellow;
+}
+h1 {
+	font-family: monospace;
+}
+html {
+background-image: linear-gradient(to bottom, lime, black);
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: 100% 100%;
+}
+</style>
+	</head>
+	<body>
+		<H1>Сборник языков программирования</H1>
+		<datalist id="langs">
+			
+		</datalist>
+		<DIV>
+			<input list="langs" id="plsearch">
+			<button onclick="findIt()">Вперёд!</button>
+		</DIV>
+		<script>
+			let ls = []
+			function addOptions(dat) {
+				let opt = document.createElement("option");
+				opt.value = dat;
+				ls.push(dat)
+				document.getElementById("langs").appendChild(opt)
+			}
+			fetch("/howmany").then(r => r.text()).then(data => data.split("||").forEach(item => addOptions(item)));
+			function findIt() {
+				if (!(ls.includes(document.getElementById("plsearch").value))) {
+					alert("Такого языка программирования ещё нету...")
+				} else {
+				location.href = `/langs/${document.getElementById("plsearch").value}`
+					
+				}}
+		</script>
+	</body>
+</html>
